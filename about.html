@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About cambridge university</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <!-- ----font gstatic change text ------ -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100;1,
+400&family=Poppins:wght@100;200;300;400;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;
+1,100;1,300;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a> 
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+
+    </section>
+
+
+    <!-- -------------about us content ----------- -->
+
+    <section class="about-us">
+
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest university</h1>
+                <p>There is only one University of Cambridge, located in Cambridge,
+                 England, and it is not considered the largest university in the
+                 world in terms of enrollment. However, it is one of the most 
+                 prestigious universities globally and has produced numerous
+                 notable alumni, including scientists, politicians, and writers.
+                 The university is composed of several colleges and offers a
+                 wide range of undergraduate and graduate programs across
+                 various disciplines.</p>
+                  <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/about.jpg">
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+<!-- ------- Footer ------ -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Cambridge University is a prestigious institution of higher education
+     located in Cambridge,<br> UK, offering world-class academic programs,
+     research opportunities, and a rich history dating back to 1209.</p>
+    <div class="icons">
+       <a href="https://www.facebook.com/cambridge.university/" target="_blank"><i class="fa fa-facebook"></i></a>
+       <a href="https://twitter.com/Cambridge_Uni?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"> <i class="fa fa-twitter"></i></a>
+       <a href="https://www.instagram.com/cambridgeuniversity/?hl=en" target="_blank"> <i class="fa fa-instagram"></i></a>
+       <a href="https://www.linkedin.com/company/camunionline/?originalSubdomain=uk" target="_blank"> <i class="fa fa-linkedin"></i></a>    
+    </div>
+   <h2> <p>Made with <i class="fa fa-heart-o"></i> Amarjeet Obroy</p></h2>
+   <p>Contact Me By Social Media : </p>
+    <div class="icons">
+        <a href="https://www.facebook.com/amarjeet.ashik.9" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/amarjeet_obroy" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/obroyamarjeet/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/amarjeetobroy/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/amarjeetobroy" target="_blank"><i class="fa fa-github"></i></a>    
+     </div>
+     
+</section>
+
+
+
+
+<!-- ---------javascript for toggle menu-------------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

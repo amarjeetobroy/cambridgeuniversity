@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog cambridge university </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <!-- ----font gstatic change text ------ -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100;1,
+400&family=Poppins:wght@100;200;300;400;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;
+1,100;1,300;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-
+awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a> 
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2023</h1>
+
+    </section>
+
+<!-- ----------blog page content-------------- -->
+
+ <section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg">
+            <h2>Our Certificate & Online Programs For 2023</h2>
+            <p>University certificates are academic credentials that are awarded by universities
+             upon completion of a specific program of study. These programs are typically shorter
+            in duration than full degree programs and are designed to provide students with 
+            specialized knowledge and skills in a particular field of study. University certificates
+            can be earned both on-campus and online.</p>
+             <br>
+             <p>Cambridge University offers a range of certificate programs in various subjects such as Business,
+             Education, Healthcare and more. These programs can range from short courses to professional
+             development programs and even online courses. The certificates are designed to provide 
+             learners with specialized knowledge and skills in their field of interest, enhancing 
+             their professional development and career opportunities</p>
+             <br>
+             <p>A university certificate is a document issued by a higher education institution,
+             typically after completion of a shorter program of study, such as a vocational or
+             technical program, that indicates a level of mastery or proficiency in a specific 
+             field.</p>
+             <br>
+             <p>A university certificate is a document awarded by a higher education institution
+             that certifies the completion of a specific course of study or program, often in a
+             specialized field. It demonstrates a level of knowledge and skill in that field 
+             and can enhance one's career prospects or serve as a stepping stone to further 
+             education.</p>
+
+             <div class="comment-box">
+                <h3>Leave a comment</h3>
+
+                <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <textarea rows="5" placeholder="Your comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+                </form>
+             </div>
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>42</span>
+            </div>
+            <div>
+                <span>Journalism</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>30</span>
+            </div>
+        </div>
+    </div>
+
+ </section>
+
+
+
+<!-- ------- Footer ------ -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Cambridge University is a prestigious institution of higher education
+     located in Cambridge,<br> UK, offering world-class academic programs,
+     research opportunities, and a rich history dating back to 1209.</p>
+    <div class="icons">
+       <a href="https://www.facebook.com/cambridge.university/" target="_blank"><i class="fa fa-facebook"></i></a>
+       <a href="https://twitter.com/Cambridge_Uni?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"> <i class="fa fa-twitter"></i></a>
+       <a href="https://www.instagram.com/cambridgeuniversity/?hl=en" target="_blank"> <i class="fa fa-instagram"></i></a>
+       <a href="https://www.linkedin.com/company/camunionline/?originalSubdomain=uk" target="_blank"> <i class="fa fa-linkedin"></i></a>    
+    </div>
+   <h2> <p>Made with <i class="fa fa-heart-o"></i> Amarjeet Obroy</p></h2>
+   <p>Contact Me By Social Media : </p>
+    <div class="icons">
+        <a href="https://www.facebook.com/amarjeet.ashik.9" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/amarjeet_obroy" target="_blank"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/obroyamarjeet/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/amarjeetobroy/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/amarjeetobroy" target="_blank"><i class="fa fa-github"></i></a>    
+     </div>
+     
+</section>
+
+
+
+
+<!-- ---------javascript for toggle menu-------------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
